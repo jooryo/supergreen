@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+				<title> Super Greens|FAQ </title>
+				<!--Stylesheet -->
+				<link rel="stylesheet" type="text/css" href="projectcss.css">
+				
+</head>
+				<body>
+					<header class="header">
+						
+						<img src="Images/projectLogo.png" width="200" height="110" id="logo">
+						
+						<!--Navigation menu-->
+							
+								<strong>
+									<div class="menu-bar">
+									<ul>
+									<li>
+									<a href="homepage.html">Home</a>
+									</li>
+									<li>
+											<a href="AboutUs.html"> About us </a>
+										</li>
+										<li>
+											<a href="#"> products </a>
+											<div class="sub-menu-1">
+											<ul>
+											<li><a href="index.php">categories</a></li>
+											<li><a href="#">collection</a></li>
+											<li><a href="featured.html">featured</a></li>
+											<li><a href="Sale.html">sale</a></li>
+											<li><a href="Brands.html">brands</a></li>
+											</ul>
+											</div>
+										</li>
+										
+										<li>
+											<a> Log in|sign up </a>
+											<div class="sub-menu-1">
+											<ul>
+											
+											<li><a href="log-in-Admins.php">Admin</a></li>
+											<li><a href="log-in-Customer.php">Customer</a></li>
+											</ul>
+											</div>
+											
+										</li>
+										
+										
+									</ul>
+										</div>
+										</strong>
+<button class="accordion">Can I add items to my order?</button>
+<div class="panel">
+  <p>If you haven’t received a notification that your parcel is dispatched,
+  contact our user support by sending us an e-mail at supegreens@gmail.com</p>
+</div>
+
+<button class="accordion">Can I use a specific product If I suffer from a particular disease?</button>
+<div class="panel">
+  <p>Always consult your doctor or a healthcare professional before taking any new food supplement.</p>
+</div>
+
+<button class="accordion">How much does delivery cost?</button>
+<div class="panel">
+  <p>How Distance Affects Prices. For certain classes of mail the price is
+  determined by how far the mailpiece travels to get to its destination: the farther it travels the more you pay in</p>
+</div>
+<button class="accordion">Where can I get a promotional code?</button>
+<div class="panel">
+  <p>Discount codes are part of our promotions, the easiest way to 
+  follow them is to sign up in our website .</p>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+<footer>
+									
+											<strong>
+											<div class="menu-bar">
+												<ul>
+													<li>
+														<a href="ContactUs.html"> contact us </a>
+													</li>
+												
+													<li>
+														<a href="support.html"> Support </a>
+													</li>
+													</div>
+												</strong>
+												<p align="center">copyright &copy; 2023-2024  SuperGreens.com </p>
+											</ul>
+										</footer>
+									</body>
+								</html>
+</body></html>
